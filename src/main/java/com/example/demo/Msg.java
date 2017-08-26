@@ -12,5 +12,4 @@ public class Msg implements MessageCreator {
 	public Message createMessage(Session session) throws JMSException {
 		return session.createTextMessage("测试消息");
 	}
-
 }
